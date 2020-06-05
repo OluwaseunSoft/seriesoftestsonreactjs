@@ -28,6 +28,8 @@ import React, {useState} from "react";
 //export default ClassDemo;
 
 export default function HookDemo(props){
+    
+    
     const [name, setName] = useState("Agata");
     const [location, setLocation] = useState("Nariobi");
 
@@ -39,7 +41,10 @@ export default function HookDemo(props){
         setLocation(e.target.value);
     }
 
+    
+    
     return(
+        
         <section>
            <form autoComplete="off">
                     <section>
@@ -65,5 +70,14 @@ export default function HookDemo(props){
                 </form>
     <p>Hello {name} from {location}</p>
         </section>
+
+        
     );
+
+    
 }
+
+
+
+
+

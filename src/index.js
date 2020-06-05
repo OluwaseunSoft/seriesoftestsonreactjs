@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
+import ClassDemo from './Hooks/useState';
 
 const name = {firstName:"Seun",
 lastName : "Akinwale"}

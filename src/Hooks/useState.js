@@ -35,3 +35,5 @@ export default class ClassDemo extends React.Component{
         );
     }
 }
+
+//export default ClassDemo;
